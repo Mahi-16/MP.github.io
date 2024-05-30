@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MP-Portfolio</title>
+  <link rel="stylesheet" href="CSS/style2.css">
+  <!-- <link rel="stylesheet" type="text/css" href="./CSS/style.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="CSS/style1.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo-img.png" alt="logo-img" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><i class="fa-solid fa-xmark" onclick="closemenu()"></i></li>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <h1>Hi, I Am <br><span>Mahendra Patil</span><br></h1>
+        <p>Aspiring Full Stack Web Developer</p>
+      </div>
+    </div>
+  </div>
+  <!------about------------------>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="./Images/pic.png" alt="user-img">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Hi I Am Mahendra Patil From Pune. Aspiring Full Stack Web Developer</p>
+          <p>I Like To Craft Solid Scalable Web Products With Great User Experience
+          </p>
+          <p>As A Web Developer, I Has A User-centered Mindset.</p>
+          <p>My Designs Are Visually Appealing Due To Love For The
+            Aesthetic.
+          </p>
+          <p>I Work In A Creative And Informative Way.</p>
+          <div class="personal-info">
+            <p><span>Name:</span> Mahendra Patil</p>
+            <p><span>Number:</span> 7218686104</p>
+            <p><span>Email:</span> mahipatil16@gmail.com</p>
+            <p><span>City:</span> Pune</p>
+            <p><span>Education:</span> B.E Instrumentation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------services--------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">
+        My Services
+      </h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Frontend Applications</h2>
+          <p>As a front-end developer, I craft scalable, efficient, and visually appealing websites that are fully
+            responsive,
+            ensuring an optimal user experience across all devices.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>React Applications</h2>
+          <p>As a React.js developer, I craft responsive, efficient, and seamless web applications with dynamic user
+            interfaces and scalable components.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>Full Stack Web Applications</h2>
+          <p>As a full-stack web developer, I create responsive, efficient, and seamless web applications with
+            comprehensive front-end and back-end solutions.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------------------portfolio------------------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">
+        My Work
+      </h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="./Images/work-1.png" alt="">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, ullam?</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="./Images/work-2.png" alt="">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, ullam?</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="./Images/work-3.png" alt="">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, ullam?</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+  <!-------------------contact--------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>mahipatil16@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>7218686104</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="./Images/my-cv.pdf" download class="btn btnr">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="Message" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btnl">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @ Mahi. Made with <i class="fa-solid fa-heart"></i> my tutorials</p>
+    </div>
+  </div>
+  <script type="text/javascript" src="./Js/script.js"></script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyNxg-ahQd2eJev_3-JQ7gIYz7r2udZYnP5yK9JIaNDfoDLq4fp9Oc_hvRU6Rnk85YVgQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById('msg');
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000);
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
