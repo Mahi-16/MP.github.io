@@ -522,6 +522,9 @@ form textarea {
   #contact .container {
     margin-bottom: 0;
   }
+  .contact-left p {
+    margin-top: 1rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
