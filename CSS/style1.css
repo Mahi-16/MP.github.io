@@ -624,8 +624,11 @@ form textarea {
     flex-basis: 100%;
   }
 
+  .about-col-1 img {
+    max-width: 100%;
+  }
   .about-col-1 {
-    margin-bottom: 1.85rem;
+    margin:0;
   }
 
   .about-col-2 {
