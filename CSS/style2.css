@@ -59,11 +59,15 @@ nav {
   margin: 0 auto;
 }
 #header {
-  background-image: url(../images/galaxy1.png);
-  background-position: 100% 100%;
+  background: url(../images/hero-bg.jpg);
+  background-position: center;
   background-size: 100% 100%;
-  background-repeat: no-repeat;
+  object-fit: contain;
   background-attachment: fixed;
+  z-index: 0;
+}
+.header-layer {
+  background-color: rgba(0, 0, 0, .1);
 }
 nav {
   display: flex;
@@ -110,6 +114,7 @@ nav ul li a:hover::after {
   left: 0;
   bottom: 0;
   right: 0;
+  z-index: 10;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -217,8 +222,10 @@ nav ul li a:hover::after {
 .work img {
   width: 100%;
   display: block;
+  object-fit: fill;
   border-radius: 0.625rem;
   transition: transform 0.5s ease;
+  z-index:-10;
 }
 .layer {
   width: 100%;
@@ -474,6 +481,7 @@ form textarea {
     padding-inline: 2%;
     background-color: #373a40;
     font-size: 1rem;
+    
   }
   nav .fa-solid {
     display: block;
@@ -489,6 +497,7 @@ form textarea {
     padding-top: 3.125rem;
     z-index: 2;
     transition: right 0.5s ease;
+    
   }
   nav ul li {
     display: block;
@@ -521,6 +530,7 @@ form textarea {
   }
   #contact .container {
     margin-bottom: 0;
+    margin-top: -1rem;
   }
   .contact-left p {
     margin-top: 1rem;
@@ -531,18 +541,18 @@ form textarea {
   #about {
     padding: 0;
   }
-  .about-col-1 img{
-    width:100%;
-    padding:0;
+  .about-col-1 img {
+    width: 100%;
+    padding: 0;
   }
-  #about .row{
-    gap:1rem;
+  #about .row {
+    gap: 1rem;
   }
 }
 
-@media only screen and (max-width:400px){
-  #about .row{
-    gap:2rem;
+@media only screen and (max-width: 400px) {
+  #about .row {
+    gap: 2rem;
   }
 }
 #msg {
