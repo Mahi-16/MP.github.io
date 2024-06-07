@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -41,13 +42,17 @@ html {
 #portfolio .container {
   text-align: center;
 }
-.logo {
-  max-width: 4%;
-  border-radius: 50%;
+.logo span {
+  font-family: "Lobster", sans-serif;
+  /* font-family: "Playball", cursive; */
+  font-weight: 900;
+  font-size: 3rem;
   margin: 0.2rem;
+
+  color: var(--main-color);
 }
 nav {
-  padding-inline: 8%;
+  padding-inline: 4%;
 }
 .header-text {
   padding-inline: 8%;
@@ -59,7 +64,7 @@ nav {
   margin: 0 auto;
 }
 #header {
-  background: url(../images/hero-bg.jpg);
+  background: url(../images/hero-bg1.png);
   background-position: center;
   background-size: 100% 100%;
   object-fit: contain;
@@ -67,7 +72,7 @@ nav {
   z-index: 0;
 }
 .header-layer {
-  background-color: rgba(0, 0, 0, .1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 nav {
   display: flex;
@@ -218,6 +223,7 @@ nav ul li a:hover::after {
   border-radius: 0.625rem;
   position: relative;
   overflow: hidden;
+  liner-radient: ellipsis;
 }
 .work img {
   width: 100%;
@@ -225,7 +231,7 @@ nav ul li a:hover::after {
   object-fit: fill;
   border-radius: 0.625rem;
   transition: transform 0.5s ease;
-  z-index:-10;
+  z-index: -10;
 }
 .layer {
   width: 100%;
@@ -393,8 +399,8 @@ form textarea {
   #portfolio {
     padding-top: 4rem;
   }
-  .logo {
-    max-width: 6%;
+  .logo span {
+    font-size: 2.5rem;
   }
   .header-text {
     align-items: center;
@@ -412,8 +418,8 @@ form textarea {
   }
 }
 @media only screen and (max-width: 768px) {
-  .logo {
-    max-width: 8%;
+  .logo span {
+    font-size: 2rem;
   }
   nav ul li {
     margin: 0.625rem 1rem;
@@ -457,8 +463,8 @@ form textarea {
   }
 }
 @media only screen and (max-width: 600px) {
-  .logo {
-    max-width: 10%;
+  .logo span {
+    font-size: 2rem;
   }
   .copyright {
     padding: 1rem 0;
@@ -481,7 +487,6 @@ form textarea {
     padding-inline: 2%;
     background-color: #373a40;
     font-size: 1rem;
-    
   }
   nav .fa-solid {
     display: block;
@@ -497,7 +502,6 @@ form textarea {
     padding-top: 3.125rem;
     z-index: 2;
     transition: right 0.5s ease;
-    
   }
   nav ul li {
     display: block;
