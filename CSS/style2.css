@@ -463,6 +463,15 @@ form textarea {
   }
 }
 @media only screen and (max-width: 600px) {
+  #header {
+    background: url(../images/bg-mobile.png);
+    opacity: 0.5;
+    background-position: center;
+    background-size: 100% 100%;
+    object-fit: contain;
+    background-attachment: fixed;
+    z-index: 0;
+  }
   .logo span {
     font-size: 2rem;
   }
