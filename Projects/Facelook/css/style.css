@@ -28,9 +28,15 @@
   background: var(--nav-color);
   padding: 5px 5%;
 }
-.logo {
-  width: 160px;
+.nav-left > a {
+  text-decoration: none;
+  cuesor: pointer;
+}
+.logo-text {
+  font-size: 2rem;
+  color: rgba(0, 0, 255, 1);
   margin-right: 45px;
+  font-weight: 900;
 }
 .nav-left,
 .nav-right {
@@ -641,13 +647,14 @@
   .search-box {
     display: none;
   }
-  .logo {
-    width: 110px;
-    margin-right: 20px;
+  .logo-text {
+    /* width: 110px; */
+    font-size: 1.5rem;
+    margin-right: 10px;
   }
   .nav-left ul li img {
     width: 20px;
-    margin: 0 8px;
+    margin: 0 4px;
   }
   .nav-user-icon img {
     width: 30px;
