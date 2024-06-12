@@ -465,7 +465,7 @@ form textarea {
 }
 @media only screen and (max-width: 600px) {
   #header {
-    background: url("../images/bg-mobile.PNG");
+    background: url("../Images/bg-mobile.png");
     background-position: center;
     background-size: 100% 100%;
     object-fit: contain;
