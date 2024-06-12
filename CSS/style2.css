@@ -44,7 +44,6 @@ html {
 }
 .logo span {
   font-family: "Lobster", sans-serif;
-  /* font-family: "Playball", cursive; */
   font-weight: 900;
   font-size: 3rem;
   margin: 0.2rem;
@@ -64,7 +63,7 @@ nav {
   margin: 0 auto;
 }
 #header {
-  background: url(../images/hero-bg1.png);
+  background: url("../Images/hero-bg1.png");
   background-position: center;
   background-size: 100% 100%;
   object-fit: contain;
@@ -87,7 +86,6 @@ nav {
   z-index: 1000;
   background-color: var(--bg-color1);
 }
-
 nav ul {
   z-index: 1000;
 }
@@ -248,7 +246,6 @@ nav ul li a:hover::after {
   position: absolute;
   left: 0;
   bottom: 0;
-
   overflow: hidden;
   z-index: 10;
   display: flex;
@@ -394,7 +391,6 @@ form textarea {
 .copyright i {
   color: var(--main-color);
 }
-
 @media only screen and (max-width: 1200px) {
   .about-col-1 img {
     max-width: 80%;
@@ -419,7 +415,6 @@ form textarea {
     display: inline-block;
     text-align: center;
   }
-
   .about-col-1 img {
     max-width: 100%;
     padding: 0;
@@ -442,19 +437,16 @@ form textarea {
     border-radius: 50%;
     object-fit: scale-down;
   }
-
   nav ul li {
     margin: 0.625rem 0.625rem;
   }
   .sub-title {
     text-align: center;
   }
-
   .services-list,
   .work-list {
     gap: 1rem;
   }
-
   #contact {
     min-height: 100%;
   }
@@ -473,14 +465,12 @@ form textarea {
 }
 @media only screen and (max-width: 600px) {
   #header {
-    background: url(../images/bg-mobile.png);
-    /* opacity: 0.5; */
+    background: url("../images/bg-mobile.PNG");
     background-position: center;
     background-size: 100% 100%;
     object-fit: contain;
     background-attachment: fixed;
   }
-
   .logo span {
     font-size: 2rem;
   }
@@ -497,13 +487,11 @@ form textarea {
   #portfolio {
     padding-top: 2rem;
   }
-
   .container {
     margin-top: 4%;
   }
   nav {
     padding-inline: 2%;
-    /* background-color: #373a40; */
     font-size: 1rem;
   }
   nav .fa-solid {
@@ -558,7 +546,6 @@ form textarea {
     margin-top: 1rem;
   }
 }
-
 @media only screen and (max-width: 500px) {
   .about-col-1 {
     margin-top: 1rem;
@@ -574,7 +561,6 @@ form textarea {
     gap: 1rem;
   }
 }
-
 @media only screen and (max-width: 400px) {
   #about .row {
     gap: 2rem;
