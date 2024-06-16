@@ -395,6 +395,15 @@ form textarea {
   .about-col-1 img {
     max-width: 80%;
   }
+  .layer {
+    padding-inline: 0.1rem;
+  }
+  .layer a {
+    margin-top: 0.5rem;
+  }
+  .layer h3 {
+    margin-bottom: 0.5rem;
+  }
 }
 @media only screen and (max-width: 992px) {
   #header,
@@ -419,6 +428,18 @@ form textarea {
     max-width: 100%;
     padding: 0;
     margin: 0;
+  }
+  .work-list {
+    gap: 1.4rem;
+  }
+  .layer,
+  .layer a {
+    font-size: 0.8rem;
+  }
+  .layer a {
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -447,10 +468,13 @@ form textarea {
   .services-list div {
     padding: 1rem;
   }
-  .services-list,
-  .work-list {
-    gap: 1rem;
+  .services-list div i {
+    margin-bottom: 1rem;
   }
+  .work {
+    max-height: 11rem;
+  }
+
   #contact {
     min-height: 100%;
   }
@@ -538,6 +562,7 @@ form textarea {
   }
   .btn {
     margin: 1em auto;
+    padding: 0.7rem 1.5rem;
   }
   .social-icons {
     margin-top: 1.5rem;
@@ -564,10 +589,38 @@ form textarea {
   #about .row {
     gap: 1rem;
   }
+  .services-list {
+    gap: 1.2rem;
+  }
+  .work {
+    min-height: 13.5rem;
+  }
+  .layer {
+    padding-inline: 1rem;
+  }
+  .layer h3 {
+    margin-bottom: 1rem;
+  }
+  .btn {
+    padding: 0.5em 1em;
+  }
+  .contact-left,
+  .contact-right {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .contact-right form {
+    padding: 0.1rem;
+  }
 }
 @media only screen and (max-width: 400px) {
   #about .row {
-    gap: 2rem;
+    gap: 1rem;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .work {
+    min-height: 11rem;
   }
 }
 #msg {
