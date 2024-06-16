@@ -225,7 +225,7 @@ nav ul li a:hover::after {
 .work {
   display: flex;
   width: 100%;
-  height: 20rem;
+  max-height: 20rem;
   border-radius: 0.625rem;
   position: relative;
   overflow: hidden;
@@ -432,7 +432,7 @@ form textarea {
     flex-direction: column;
   }
   .about-col-1 img {
-    max-width: 60%;
+    max-width: 50%;
     padding: 1rem;
     border-radius: 50%;
     object-fit: scale-down;
@@ -442,6 +442,10 @@ form textarea {
   }
   .sub-title {
     text-align: center;
+  }
+
+  .services-list div {
+    padding: 1rem;
   }
   .services-list,
   .work-list {
